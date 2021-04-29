@@ -1,0 +1,14 @@
+{
+  "name": "sign_up_list",
+  "version": "1.0.0",
+  "description": "This is a well organized and deployed web application to collect email lists from sing up users",
+  "main": "singUp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oday Najad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
