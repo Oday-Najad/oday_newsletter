@@ -5,7 +5,7 @@
   "main": "singUp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon exec ./singUp.js"
+    "start": "nodemon --exec ./singUp.js"
   },
   "author": "Oday Najad",
   "license": "ISC",
