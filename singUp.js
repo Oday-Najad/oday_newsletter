@@ -35,7 +35,7 @@ app.post("/",(req,res)=>{
 
     const JSONdata = JSON.stringify(data);
 
-    const url ="https://us1.api.mailchimp.com/3.0/lists/6f04a01b1";
+    const url ="https://us1.api.mailchimp.com/3.0/lists/6f04a01b16";
     const options = {
         method: "POST",
         auth: "Oday:b881b3b1ce3e00783e2af5389931f1c3-us1"
@@ -64,7 +64,7 @@ app.post("/fail",(req,res)=>{
 })
 
 app.listen(process.env.PORT|| 3000, ()=>{
-    console.log("Server started on port "+port);
+    console.log("Server started on port "+3000);
 })
 
 
