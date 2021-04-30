@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const https = require('https');
+const port = process.env.PORT || 3000;
 
 
 app.use(express.urlencoded({extended:true}));
@@ -63,8 +64,8 @@ app.post("/fail",(req,res)=>{
     res.redirect("/");
 })
 
-app.listen(process.env.PORT|| 3000, ()=>{
-    console.log("Server started on port "+3000);
+app.listen(port, ()=>{
+    console.log("Server started on port "+port);
 })
 
 
