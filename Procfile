@@ -1,1 +1,1 @@
-web:node app/signUp.js
+web:node signUp.js
