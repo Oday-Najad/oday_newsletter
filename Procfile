@@ -1,1 +1,1 @@
-web:nodemon ./signUp.js
+web:node signUp.js
